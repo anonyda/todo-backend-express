@@ -9,7 +9,7 @@ Fork or clone this repository, and run the following commands in the terminal at
 
 ```bash
 npm install
-npm run dev
+npm run start
 ```
 These two commands will install all the dependencies for this project and run the app in the development mode. 
 
