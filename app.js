@@ -20,7 +20,8 @@ app.use('/tasks', taskRouter);
 // app.get('/tasks', getAllTasks);
 // app.get('/tasks/:taskId', getTaskById);
 
+let port = process.env.PORT || 3000
 
-app.listen(3000, () => {
-    console.log('Server started on port 3000')
+app.listen(port, () => {
+    console.log(`Application started at port ${port}`)
 });
