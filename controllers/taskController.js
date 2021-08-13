@@ -110,7 +110,7 @@ const updateTask = (req, res, next) => {
             });
         }
         res.status(200).json({
-            message: 'Task Added Successfully',
+            message: 'Task Updated Successfully',
             data: Tasks[foundTaskIndex]
         });
     })
@@ -125,7 +125,7 @@ const deleteTask = (req, res, next) => {
             Tasks.pop();
             return sendResponse({res, statusCode: 500, message: 'Cannot delete task', error: err});
         }
-        return sendResponse({res, statusCode: 204, message: 'Task successfully deleted'});
+        return sendResponse({res, statusCode: 204, message: 'Task Successfully Deleted'});
     })
 }
 
