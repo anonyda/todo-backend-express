@@ -96,5 +96,5 @@ This endpoint will delete an existing task. It requires a valid task ID for dele
 
 ```
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Try It Yourself
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/13174206-e9e34665-d623-4fb7-be38-499dde8cddde?action=collection%2Ffork&collection-url=entityId%3D13174206-e9e34665-d623-4fb7-be38-499dde8cddde%26entityType%3Dcollection%26workspaceId%3Df3c769ec-7032-4d9f-9b5a-b5fa49b429da)
